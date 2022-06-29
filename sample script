@@ -1,0 +1,7 @@
+index.for.rows=1:nrow(CountyPop)
+
+
+for (i in 1:nrow(CountyPop)){
+  #PRINT 
+  print(CountyPop[i,])
+} 
